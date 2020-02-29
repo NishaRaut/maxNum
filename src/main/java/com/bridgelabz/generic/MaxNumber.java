@@ -1,15 +1,12 @@
 package com.bridgelabz.generic;
 
 public class MaxNumber {
-
-    public int getMaxNum(int i, int i1, int i2) {
-        int max = 0;
-        if (i >= i1 && i >= i2)
-            max = i;
-        else if (i1 >= i && i1 >= i2)
-            max=i1 ;
-        else
-            max=i2 ;
+    public int getMaxNum(Integer num1, Integer num2, Integer num3) {
+        Integer max = num1;
+        if (num2.compareTo(max)>0)
+            max = num2;
+        else if (num3.compareTo(max)>0)
+            max=num3 ;
         System.out.println("max number is>>"+max);
     return max;
     }
