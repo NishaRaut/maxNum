@@ -14,7 +14,7 @@ public class MaxNumberTest {
 
     @Test
     public void givenThreeNumbers_shoubldBeReturnMaxNum() {
-        String result=maxNumber.getMaxValue("Peach","Apple","Banana");
+        String result=maxNumber.getMaxValue("Apple","Banana","Peach");
         Assert.assertEquals("Peach",result);
     }
 
