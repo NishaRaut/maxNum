@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.generic.MaxNumberTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-02T05:59:06" hostname="nisha-Inspiron-15-3567" time="0.004">
+<testsuite name="com.bridgelabz.generic.MaxNumberTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-02T06:41:38" hostname="nisha-Inspiron-15-3567" time="0.001">
   <properties/>
-  <testcase name="givenThreeNumbers_shoubldBeReturnMaxNum" classname="com.bridgelabz.generic.MaxNumberTest" time="0.004"/>
-  <system-out><![CDATA[max number is>>15
-]]></system-out>
+  <testcase name="givenThreeNumbers_shoubldBeReturnMaxNum" classname="com.bridgelabz.generic.MaxNumberTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
