@@ -16,7 +16,7 @@ public class MaxNumberTest {
 
     @Test
     public void givenThreeNumbers_shoubldBeReturnMaxNum() {
-        float result=maxNumber.getMaxNum(3.5f,2.5f,1.5f);
+        float result=maxNumber.getMaxNum(2.5f,3.5f,1.5f);
         Assert.assertEquals(3.5f,result,0.0);
 
     }
