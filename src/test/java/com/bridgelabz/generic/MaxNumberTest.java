@@ -5,7 +5,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class MaxNumberTest {
-
     MaxNumber maxNumber;
 
     @Before
@@ -13,12 +12,10 @@ public class MaxNumberTest {
         maxNumber=new MaxNumber();
     }
 
-
     @Test
     public void givenThreeNumbers_shoubldBeReturnMaxNum() {
-        float result=maxNumber.getMaxNum(2.5f,1.5f,3.5f);
-        Assert.assertEquals(3.5f,result,0.0);
-
+        String result=maxNumber.getMaxValue("Peach","Apple","Banana");
+        Assert.assertEquals("Peach",result);
     }
 
 }
