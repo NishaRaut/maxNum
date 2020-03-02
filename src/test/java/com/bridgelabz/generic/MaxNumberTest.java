@@ -13,10 +13,12 @@ public class MaxNumberTest {
         maxNumber=new MaxNumber();
     }
 
+
     @Test
     public void givenThreeNumbers_shoubldBeReturnMaxNum() {
-        int result=maxNumber.getMaxNum(5,15,185);
-        Assert.assertEquals(185,result);
+        float result=maxNumber.getMaxNum(3.5f,2.5f,1.5f);
+        Assert.assertEquals(3.5f,result,0.0);
 
     }
+
 }
